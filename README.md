@@ -24,6 +24,13 @@ Current Version: macOS Ventura 13.3
 # Not working
 Wifi/BT but only because I didn't install a macOS Wifi/BT card yet
 
+# BIOS Settings
+You can use the default settings. No change required. Above 4G Decording etc. are all already Enabled.
+
+I also let Fast Boot Enabled, no issues so far.
+
+Only if you need Secure Boot (Enable Secure Boot, Secure Boot Mode to Custom and then in the Key Management all .efi files in your EFI-folder need to be enrolled/whitelisted with "Enroll this EFI").
+
 # USB Port Mapping
 
 not mapped yet
