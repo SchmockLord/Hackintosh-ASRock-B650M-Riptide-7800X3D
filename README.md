@@ -22,10 +22,12 @@ Current Version: macOS Ventura 13.3
 - Wifi/BT
 
 # Not working
-Wifi/BT but only because I didn't install a macOS Wifi/BT card yet
+iGPU, but this is common. You should disable it in BIOS or via Device Properties just for macOS.
 
 # BIOS Settings
-You can use the default settings. No change required. Above 4G Decording etc. are all already Enabled.
+You can use the default settings. But disable the iGPU. 
+
+Appart from that, no change required. Above 4G Decording etc. are all already Enabled.
 
 I also let Fast Boot Enabled, no issues so far.
 
@@ -33,4 +35,6 @@ Only if you need Secure Boot (Enable Secure Boot, Secure Boot Mode to Custom and
 
 # USB Port Mapping
 
-not mapped yet
+Mapped via SSDT.
+
+![USB-Port-Mapping_B650M-Riptide](Docs/USB-Port-Mapping_B650M-Riptide.png)
