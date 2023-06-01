@@ -44,3 +44,8 @@ Mapped via `SSDT-USB-B650M-Riptide.aml`.
 I had to fix all errors in `DSDT.aml` and removed USB-port definition from the `DSDT.aml`. I also deleted the original `SSDT-USB.aml`. The USB-Port Mapping for all controllers is in the `SSDT-USB-B650M-Riptide.aml`.
 
 ![USB-Port-Mapping_B650M-Riptide](Docs/USB-Port-Mapping_B650M-Riptide.png)
+
+# Notes
+
+- **iGPU is causing a crash on wake if enabled**. Disable iGPU in BIOS or disable it via Device Properties in your config.plist just for macOS
+- **Two Keypresses to wake display after sleep** was solved by using `SSDT-USBW.aml` + `USBWakeFixup.kext` + Adding `acpi-wake-type=01` for every USB controller (`XH00`, `XHC0`, `XHC1` and `XHC2`) in the device properties.
