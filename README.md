@@ -41,6 +41,6 @@ Mapped via `SSDT-USB-B650M-Riptide.aml`.
 
 `XHC0`, `XHC1` and `XHC2` are defined in `SSDT-USB.aml`. 
 
-I had to fix all errors in `DSDT.aml` and removed USB-port definition from the `DSDT.aml`. The USB-Port Mapping for all controllers is in the `SSDT-USB-B650M-Riptide.aml`.
+I had to fix all errors in `DSDT.aml` and removed USB-port definition from the `DSDT.aml`. I also deleted the original `SSDT-USB.aml`. The USB-Port Mapping for all controllers is in the `SSDT-USB-B650M-Riptide.aml`.
 
 ![USB-Port-Mapping_B650M-Riptide](Docs/USB-Port-Mapping_B650M-Riptide.png)
