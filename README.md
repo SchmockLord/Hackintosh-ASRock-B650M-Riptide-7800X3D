@@ -4,7 +4,7 @@
 
 # Current macOS
 
-Current Version: macOS Ventura 13.3
+Current Version: macOS Sonoma Beta 7
 
 # Hardware
 - CPU: AMD Ryzen 7 7800X3D
@@ -13,7 +13,7 @@ Current Version: macOS Ventura 13.3
 - GPU: MSI Gaming Trio X 6900 XTX
 - PSU: Corsair SF750
 - Case: Asus AP201 (Micro-ATX)
-- Wifi/BT: not yet
+- Wifi/BT: Fenvi T919 with Broadcom Chipset
 
 # Working
 - CPU Power Management
