@@ -106,43 +106,35 @@
 		<array>
 			<dict>
 				<key>Address</key>
-				<integer>4026531840</integer>
+				<integer>4259315712</integer>
 				<key>Comment</key>
-				<string>MMIO devirt 0xF0000000 (0x8000 pages, 0x800000000000100D)</string>
-				<key>Enabled</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Address</key>
-				<integer>4244635648</integer>
-				<key>Comment</key>
-				<string>MMIO devirt 0xFD000000 (0x1E00 pages, 0x800000000000100D)</string>
+				<string>MMIO devirt 0xFDE00000 (0x100 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Address</key>
-				<integer>4276092928</integer>
+				<integer>4275568640</integer>
 				<key>Comment</key>
-				<string>MMIO devirt 0xFEE00000 (0x1 pages, 0x8000000000000001)</string>
+				<string>MMIO devirt 0xFED80000 (0x1 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Address</key>
-				<integer>4276097024</integer>
+				<integer>4278190080</integer>
 				<key>Comment</key>
-				<string>MMIO devirt 0xFEE01000 (0x11FF pages, 0x800000000000100D)</string>
+				<string>MMIO devirt 0xFF000000 (0x1000 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Address</key>
-				<integer>36507222016</integer>
+				<integer>35970351104</integer>
 				<key>Comment</key>
-				<string>MMIO devirt 0x880000000 (0x20200 pages, 0x800000000000100D)</string>
+				<string>MMIO devirt 0x860000000 (0x20200 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -1452,10 +1444,6 @@
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
-				<key>revcpu</key>
-				<integer>1</integer>
-				<key>revcpuname</key>
-				<string>AMD Ryzen™ 7 7800X3D</string>
 				<key>rtc-blacklist</key>
 				<data></data>
 			</dict>
@@ -1549,7 +1537,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
