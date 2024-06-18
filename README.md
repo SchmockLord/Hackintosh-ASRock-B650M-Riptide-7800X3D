@@ -4,7 +4,14 @@
 
 # Current macOS
 
-Current Version: macOS Sonoma Beta 7
+Current Version: macOS Sonoma 14.5
+
+# Special Notes 
+
+Note 1: I highly recommend sticking to BIOS 1.30.AS05 [Beta]. Whenever I tried something newer, I experienced restarts with BIOS-resets instead of a shutdown from macOS. I experienced that on my ASROCK B650M Riptide PG and now on the B650M Pro R/S Wifi. I also noticed no performance increase with BIOS afterwards. Always get the same Benchmarks results e.g. with 2.10 or even the newest 3.01.
+
+Note 2: In Windows 11 Disable USB-Selective Suspend in every Energy Profile. This can cause Framedrops in Games, I had issues with random FPS drops every couple of hours using Pico 4 and Quest 3 VR Headsets. And I think I also noticed this in Valorant.
+
 
 # Hardware
 - CPU: AMD Ryzen 7 7800X3D
@@ -25,9 +32,12 @@ Current Version: macOS Sonoma Beta 7
 iGPU, but this is common. You should disable it in BIOS or via Device Properties just for macOS.
 
 # BIOS Settings
-You can use the default settings. But disable the iGPU. 
 
-Appart from that, no change required. Above 4G Decording etc. are all already Enabled.
+I highly recommend sticking to BIOS 1.30.AS05 [Beta], see special notes above.
+
+You can use the default settings, no change required for macOS. Above 4G Decording etc. are all already Enabled.
+
+The only things I do to improve performance: XMP Profile (in my case 6000Mhz), RAM Timings to Aggressive. Memory Restore Context to Enabled. And Soc/Uncore Voltage to 1.25V.
 
 I also let Fast Boot Enabled, no issues so far.
 
