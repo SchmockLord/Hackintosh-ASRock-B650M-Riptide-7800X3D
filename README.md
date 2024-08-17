@@ -4,7 +4,7 @@
 
 # Current macOS
 
-Current Version: macOS Sonoma 14.5
+Current Version: macOS Sequoia
 
 # Special Notes 
 
