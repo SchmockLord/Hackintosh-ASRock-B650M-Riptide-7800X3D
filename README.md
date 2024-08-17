@@ -1,6 +1,6 @@
 # Hackintosh-ASRock-B650M-Riptide-7800X3D
 
-![Thumbnail](Docs/Thumbnail.png)
+![Thumbnail](Docs/Thumbnail_Sequoia.png)
 
 # Current macOS
 
