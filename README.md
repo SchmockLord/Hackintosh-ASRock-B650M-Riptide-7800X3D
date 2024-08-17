@@ -1,6 +1,6 @@
 # Hackintosh-ASRock-B650M-Riptide-7800X3D
 
-![Thumbnail](Docs/Screenshot 2024-08-17 at 12.28.19)
+![Thumbnail](Docs/Thumbnail.png)
 
 # Current macOS
 
